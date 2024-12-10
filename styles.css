@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+div.fundo-logo {
+
+  background-color: #365347;
+
+}
+
+div.fundo-bemvindo{
+
+  background-color: #ECECEC;
+
+}
+
+h2{ 
+  
+  color: #294D40;
+
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 188px;
+  color: #294D40;
+  text-decoration: underline;
+}
+
+
+
+noborda{
+
+  border:none,none,none;
+
+}
+
+
+.nav-link {
+  color: #294D40;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+footer img {
+  transition: transform 0.3s ease;
+}
+
+footer img:hover {
+  transform: scale(1.1);
+}
